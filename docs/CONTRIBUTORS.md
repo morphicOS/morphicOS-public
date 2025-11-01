@@ -14,6 +14,7 @@ Category	Definition
 Ethics-Verified	Contributions reviewed & approved by the Morphic Ethics Board and integrated into official releases.
 Pending Review	Awaiting verification and merge to main.
 Honorary	Conceptual or institutional support acknowledged for indirect contributions.
+
 🧾 2️⃣ Official Contributors
 A. Ethics-Verified Contributors
 Name	Role / Contribution	Module / Domain	Date Approved	Notes
@@ -39,6 +40,7 @@ C. Honorary & Conceptual Contributors
 Name	Role / Area	Acknowledgement
 Morphic Ethics Board	Oversight Body	Maintains ethical compliance and license integrity (MPEL).
 Early Research Participants (Anonymous)	Behavioral Testing	Supported subtext variance and context-drift calibration trials.
+
 🧠 3️⃣ Research Overview
 
 Total Combined R&D Time: ≈ 3,500 hours (April – November 2025)
@@ -81,5 +83,6 @@ Verification ID: ETH-VFY-[YYYY][MM][####] | Average Response: 3–5 business day
 — MorphicOS Doctrine, v1.7.4
 
 Together, Edward Levin, Karen Levin, Sagie BenHaim and Yuval Lando built the first framework that treats ethics as physics — measurable, dynamic, and self-correcting.
+
 
 End of Ethics Register — MorphicOS v1.7.4
