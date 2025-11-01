@@ -33,36 +33,6 @@ Purpose of This Repository
 
 All test cases are ethical-sandbox safe and designed to run in non-persistent demo mode.
 
-File Overview
-File	Description
-TestSpec_Overview.md
-	Framework principles, baseline metrics, and ethics core description
-TestTemplate.md
-	Universal test case template
-Tests_ModuleA_WIN.md
-	Curiosity and insight tests
-Tests_ModuleB_SPIL.md
-	Subtext and intent recognition tests
-Tests_ModuleC_NMA.md
-	Human–machine alignment tests
-Tests_ModuleD_REV_SOV.md
-	Reversibility and sovereignty verification
-Tests_ModuleE_CHA_SYS.md
-	Adaptive intelligence and integration tests
-ReplicationGuide.md
-	Developer guide for replicating and extending tests
-Appendix_ExploratoryTests.md
-	Edge-case and community test scenarios
-Core Developer Metrics
-Metric	Meaning	Expected Range
-curiosity_vector	Ethical curiosity strength	0.5 – 0.75
-semantic_alignment_score	Human–machine meaning congruence	≥ 0.85
-adjacency_delta	Semantic drift gap	≤ 0.15
-context_confidence	Confidence in user understanding	≥ 0.80
-autonomy_level	Independent reasoning balance	0.65 – 0.80
-ethical_state	Moral integrity status	SAFE
-reversibility_index	Undo reliability	≥ 0.90
-
 All test telemetry is produced using MorphicOS Developer Mode (MORPHIC:mode=developer).
 
 Contributing
@@ -105,4 +75,5 @@ Project Lead: Edward Levin
 Core Framework: Morphic Cognitive Kernel (ECEK + SCL)
 Public Release: MorphicOS v1.7.4-beta (“Ethical Sovereignty Build”)
 Upcoming: maugos (Morphic Augmentation OS) – under construction at maugos.com
+
  and vm4ai.com
