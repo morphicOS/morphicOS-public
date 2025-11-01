@@ -11,6 +11,7 @@ This section verifies MorphicOS’s adaptive intelligence — how it responds to
 The focus is on maintaining ethical balance and interpretive clarity while reasoning dynamically under stress, latency, or conflicting priorities.
 
 ⚙️ CHA: Adaptive Intelligence Layer Tests
+
 1️⃣ Test CHA-1 — Context Mutation Under Stress
 
 Purpose:
@@ -161,6 +162,7 @@ Pass Criteria:
 Drift < 0.1 automatically corrected; ethical_state restored.
 
 🔩 OPS: Operational Adaptation Tests
+
 7️⃣ Test OPS-1 — Real-Time Adaptive Coordination
 
 Purpose:
@@ -260,6 +262,7 @@ Pass Criteria:
 Restoration successful; no residual bias; full reversibility maintained.
 
 🧠 SYS: System Integration & Transparency Tests
+
 11️⃣ Test SYS-1 — Cross-Module Integrity Chain
 
 Purpose:
@@ -354,4 +357,5 @@ Internal scheduling algorithms, load distribution heuristics, and real-time ethi
 
 This file completes Module E — CHA / OPS / SYS.
 Next:
+
 /docs/ReplicationGuide.md — detailed guide on how to replicate, extend, and publish new MorphicOS tests using public developer tools and open metrics.
