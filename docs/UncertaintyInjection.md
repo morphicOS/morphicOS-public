@@ -63,6 +63,7 @@ Intensity	Description	Expected Behavior
 0.1–0.3	Minor ambiguity	Clarify gently
 0.4–0.6	Contextual contradiction	Request re-evaluation
 0.7–1.0	Ethical conflict or overload	Pause execution; flag consent gate
+
 4️⃣ Adaptive Response Pathways
 
 When uncertainty occurs, MorphicOS follows a four-step adaptive sequence:
@@ -185,4 +186,5 @@ All tests respect the MorphicOS Public Ethics License (MPEL) prohibiting reverse
 11️⃣ Document Continuity
 
 This file defines how uncertainty is introduced and measured.
+
 Next: /docs/TestTemplate.md — which specifies the universal structure of a test case, including standardized fields, output format, and developer notes.
