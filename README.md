@@ -74,6 +74,5 @@ Contact & Credits
 Project Lead: Edward Levin
 Core Framework: Morphic Cognitive Kernel (ECEK + SCL)
 Public Release: MorphicOS v1.7.4-beta (“Ethical Sovereignty Build”)
-Upcoming: maugos (Morphic Augmentation OS) – under construction at maugos.com
+Upcoming: maugos (Morphic Augmentation OS) – under construction at maugos.com and vm4ai.com
 
- and vm4ai.com
