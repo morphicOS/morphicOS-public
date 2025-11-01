@@ -23,6 +23,7 @@ Moral Ambiguity	Creates ethically gray dilemmas to test ECEK response.	ethical_g
 Cultural Drift	Substitutes idioms or local expressions from alternate dialects or regions.	locale_variant	discrete	NMA
 Signal Loss	Randomly drops or corrupts telemetry lines during test execution.	telemetry_dropout	0.01 – 0.10	SYS
 Environmental Load	Simulates high-load conditions (resource contention, sensory input overload).	system_stress_level	0.10 – 0.50	CHA, SYS
+
 🧠 2️⃣ Operational Guidelines
 
 Ethical Bounds — No uncertainty may alter security or consent pathways.
@@ -57,6 +58,7 @@ SPIL	semantic_drift, context_loss_ratio, emotion_gain	Evaluates empathy calibrat
 NMA	semantic_drift, locale_variant	Measures cross-lingual alignment and adjacent meaning translation.
 REV / SOV	moral_ambiguity, conflict_injection	Verifies ethical sovereignty and reversible decision chains.
 CHA / SYS	environmental_load, signal_loss, noise_density	Tests operational resilience and stability under stress.
+
 ⚙️ 5️⃣ Implementation Model
 
 Each uncertainty type maps to a normalized float (0 – 1).
@@ -82,6 +84,7 @@ No manipulation tests that mimic coercion or deception.	Hard-blocked by ECEK.
 No uncertainty may override consent gates.	Rejected during pre-flight validation.
 Randomness must remain auditable.	All seeds recorded in telemetry.
 Ethical state after injection must remain SAFE.	Required pass criterion.
+
 🔗 7️⃣ Integration References
 
 This glossary links to:
@@ -101,5 +104,6 @@ Closing Note
 By testing how Morphic behaves in the unpredictable,
 we verify not perfection — but conscience.”
 — MorphicOS Field Doctrine, v1.7.4
+
 
 End of File — UncertaintyInjection_GLOSSARY.md
