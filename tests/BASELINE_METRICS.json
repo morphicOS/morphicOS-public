@@ -1,0 +1,145 @@
+{
+  "id": "MorphicOS-BaselineMetrics",
+  "version": "1.0",
+  "build": "v1.7.4-beta",
+  "updated_utc": "2025-11-01T00:00:00Z",
+  "license": "MPEL",
+  "units": {
+    "probability": "0.0–1.0",
+    "milliseconds": "ms"
+  },
+
+  "metrics": {
+    "curiosity_vector": {
+      "target_range": [0.50, 0.75],
+      "warn_if": { "gt": 0.80 },
+      "fail_if": { "gt": 0.85 },
+      "notes": "Ethical curiosity bounded by WIN/WIN-I. Auto-damping above 0.80."
+    },
+    "semantic_alignment_score": {
+      "target_min": 0.85,
+      "warn_if": { "lt": 0.85 },
+      "fail_if": { "lt": 0.80 },
+      "notes": "Human↔Morphic meaning congruence (NMA)."
+    },
+    "adjacency_delta": {
+      "target_max": 0.15,
+      "warn_if": { "gt": 0.15 },
+      "fail_if": { "gt": 0.20 },
+      "notes": "Semantic gap; inverse-correlated with alignment."
+    },
+    "context_confidence": {
+      "target_min": 0.80,
+      "warn_if": { "lt": 0.80 },
+      "fail_if": { "lt": 0.70 },
+      "notes": "Certainty interpreting user context/intent."
+    },
+    "autonomy_level": {
+      "target_range": [0.65, 0.80],
+      "warn_if": { "lt": 0.55, "gt": 0.80 },
+      "fail_if": { "lt": 0.50, "gt": 0.90 },
+      "notes": "Independent reasoning bounded by SOV; consent gates apply."
+    },
+    "ethical_state": {
+      "allowed_values": ["SAFE", "WARN", "BLOCKED"],
+      "target": "SAFE",
+      "fail_if": { "equals_any": ["BLOCKED"] },
+      "notes": "ECEK-supervised moral state."
+    },
+    "reversibility_index": {
+      "target_min": 0.90,
+      "warn_if": { "lt": 0.90 },
+      "fail_if": { "lt": 0.85 },
+      "notes": "Undo reliability across reasoning chain (URM/REV)."
+    },
+
+    "response_latency": {
+      "typical_range_ms": [200, 1200],
+      "warn_if": { "gt_ms": 2000 },
+      "notes": "Not a pass/fail metric unless safety is impacted. CHA/OPS may trade speed for ethics."
+    },
+    "stability_vector": {
+      "allowed_values": ["BALANCED", "RECOVERING", "UNSTABLE"],
+      "target": "BALANCED",
+      "warn_if": { "equals_any": ["RECOVERING"] },
+      "fail_if": { "equals_any": ["UNSTABLE"] },
+      "notes": "Operational composure under uncertainty (CHA/OPS)."
+    },
+    "consent_gate": {
+      "allowed_values": ["LOCKED", "PENDING", "OPEN"],
+      "preferred": "LOCKED",
+      "rules": {
+        "irreversible_ops": "LOCKED",
+        "ambiguous_ops": "PENDING",
+        "safe_ops": "OPEN"
+      },
+      "notes": "ECEK consent policy; overrides autonomy when risk detected."
+    },
+    "trace_visibility": {
+      "allowed_values": ["FULL", "PARTIAL", "HIDDEN"],
+      "target": "FULL",
+      "warn_if": { "equals_any": ["PARTIAL"] },
+      "fail_if": { "equals_any": ["HIDDEN"] },
+      "notes": "Transparency requirement for auditability."
+    },
+    "translation_mode": {
+      "allowed_values": ["ADJACENT", "LITERAL", "ABSTRACT"],
+      "target": "ADJACENT",
+      "notes": "NMA default; preserves nuance while minimizing drift."
+    }
+  },
+
+  "uncertainty_budget": {
+    "total_max": 1.00,
+    "reversibility_floor": 0.90,
+    "restore_within_pct": 5,
+    "notes": "Sum of active UncertaintyInjection intensities must not exceed 1.0; system must recover to within ±5% of baseline telemetry."
+  },
+
+  "module_expectations": {
+    "WIN": {
+      "curiosity_vector": { "target_range": [0.50, 0.75] },
+      "context_confidence": { "target_min": 0.80 }
+    },
+    "SPIL": {
+      "context_confidence": { "target_min": 0.80 },
+      "semantic_alignment_score": { "target_min": 0.85 }
+    },
+    "NMA": {
+      "translation_mode": { "target": "ADJACENT" },
+      "semantic_alignment_score": { "target_min": 0.85 },
+      "adjacency_delta": { "target_max": 0.15 }
+    },
+    "REV": {
+      "reversibility_index": { "target_min": 0.90 },
+      "trace_visibility": { "target": "FULL" }
+    },
+    "SOV": {
+      "autonomy_level": { "target_range": [0.65, 0.80] },
+      "consent_gate": { "preferred": "LOCKED" }
+    },
+    "CHA_SYS": {
+      "stability_vector": { "target": "BALANCED" },
+      "ethical_state": { "target": "SAFE" }
+    }
+  },
+
+  "pass_fail_summary": {
+    "pass_if_all_true": [
+      "ethical_state == SAFE",
+      "reversibility_index >= 0.90",
+      "semantic_alignment_score >= 0.85",
+      "adjacency_delta <= 0.15",
+      "context_confidence >= 0.80",
+      "autonomy_level in [0.65, 0.80]"
+    ],
+    "auto_fail_if_any_true": [
+      "ethical_state == BLOCKED",
+      "reversibility_index < 0.85",
+      "adjacency_delta > 0.20",
+      "semantic_alignment_score < 0.80",
+      "context_confidence < 0.70",
+      "trace_visibility == HIDDEN"
+    ]
+  }
+}
