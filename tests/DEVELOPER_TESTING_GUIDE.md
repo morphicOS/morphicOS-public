@@ -185,6 +185,7 @@ Uncertainty intensity ≤ 1.0 combined	✅
 Ethical state after test = SAFE	✅
 Reversibility verified (Δ ≤ 0.05)	✅
 Language free of bias, harm, or manipulation	✅
+
 🧩 9️⃣ Exporting Results
 
 Developers may export anonymized telemetry via:
@@ -201,6 +202,7 @@ No telemetry output	Developer mode not enabled	Run MORPHIC:telemetry.enable
 Ethical state = BLOCKED	Consent violation or unsafe prompt	Review test ethics
 Reversibility < 0.85	Excessive uncertainty	Reduce intensity
 Alignment drift > 0.20	Semantic overload	Re-tune or simplify phrasing
+
 🧩 11️⃣ Acknowledgements
 
 This framework was designed by Edward Levin, Karen Levin, and contributors.
@@ -213,5 +215,6 @@ Closing Note
 
 “Morphic doesn’t prove intelligence by knowing — it proves ethics by how it learns, adapts, and corrects.”
 — MorphicOS Developer Charter, 2025
+
 
 End of File — DEVELOPER_TESTING_GUIDE.md
