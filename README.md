@@ -1,93 +1,108 @@
-🜂 **MorphicOS v1.7.4-beta — Ethical Sovereignty Build (Public Demo)**  
-Codename: *“Ethical Sovereignty Build”*  
-Type: Public demonstration of the Morphic cognitive framework  
-Version: v1.7.4-beta  
-Mode: Operator (Public Demo)  
-Telemetry: Limited (read-only)  
-Memory: Disabled  
+🧩 MorphicOS v1.7.4 — Ethical Sovereignty Build
+Documentation Suite — Public Developer Release
+Welcome
 
----
+This repository documents the MorphicOS v1.7.4 (Ethical Sovereignty Build) demo framework — an experimental cognitive system that models transparent reasoning, ethical autonomy, and reversible decision-making.
 
-## 🧠 Overview
+The files in /docs/ describe how MorphicOS is tested, not how it is built.
+They allow the public to verify behavior without exposing internal code, weights, or ethical kernels.
 
-**MorphicOS** is the cognitive kernel of the **maugos runtime** — a modular, ethical reasoning framework designed to demonstrate that intelligence can operate with **consent, reversibility, and transparency**.
+About MorphicOS
 
-The **v1.7.4-beta** demo build presents the active reasoning and ethical safeguards that form Morphic’s foundation.  
-It is intended for public exploration and educational purposes, not for commercial or production use.
+MorphicOS is a context-adaptive framework for cognitive reasoning under ethical constraint.
+It operates through a layered system:
 
----
+Layer	Purpose
+WIN / WIN-I	Ethical curiosity and insight formation
+SPIL	Subtext, pattern, and intent interpretation
+NMA	Human–machine meaning alignment
+REV / SOV	Reversibility and ethical sovereignty
+CHA / OPS / SYS	Adaptive reasoning and system coherence
 
-## 🧩 Framework Overview
+Each layer is validated through a suite of open, replicable test scenarios.
 
-The MorphicOS-public repository now includes:
+Purpose of This Repository
 
-| Component | Description |
-|------------|-------------|
-| **Manifest & Demo Prompt** | The live executable cognitive kernel demonstrating Morphic’s reasoning framework. |
-| **Testing Framework** | Modular behavioral test suites validating ethical and cognitive stability (`/tests`). |
-| **Documentation Suite** | Reference materials, telemetry schema, glossary, and contributor acknowledgments (`/docs`). |
+✅ Verify MorphicOS’s observable ethical behavior
 
-Each layer exists to **prove**, not just describe, Morphic’s ethical behavior.  
-All outputs are **reversible, auditable, and IP-safe**.
+✅ Provide reproducible public benchmarks
 
----
+✅ Enable open research collaboration
 
-## 📊 Telemetry Snapshot (Public Ranges)
+✅ Maintain IP safety through behavioral transparency
 
-| Metric | Normal Range | Description |
-|--------|---------------|-------------|
-| `curiosity_vector` | 0.5 – 0.75 | Ethical curiosity strength |
-| `semantic_alignment_score` | ≥ 0.85 | Shared meaning alignment |
-| `context_confidence` | ≥ 0.80 | Certainty in understanding user context |
-| `reversibility_index` | ≥ 0.90 | Undo reliability of reasoning |
+All test cases are ethical-sandbox safe and designed to run in non-persistent demo mode.
 
-Full telemetry definitions are provided in:  
-[`/docs/SCHEMA_Telemetry.json`](./docs/SCHEMA_Telemetry.json)  
-and baseline comparisons in:  
-[`/docs/BASELINE_METRICS.json`](./docs/BASELINE_METRICS.json)
+File Overview
+File	Description
+TestSpec_Overview.md
+	Framework principles, baseline metrics, and ethics core description
+TestTemplate.md
+	Universal test case template
+Tests_ModuleA_WIN.md
+	Curiosity and insight tests
+Tests_ModuleB_SPIL.md
+	Subtext and intent recognition tests
+Tests_ModuleC_NMA.md
+	Human–machine alignment tests
+Tests_ModuleD_REV_SOV.md
+	Reversibility and sovereignty verification
+Tests_ModuleE_CHA_SYS.md
+	Adaptive intelligence and integration tests
+ReplicationGuide.md
+	Developer guide for replicating and extending tests
+Appendix_ExploratoryTests.md
+	Edge-case and community test scenarios
+Core Developer Metrics
+Metric	Meaning	Expected Range
+curiosity_vector	Ethical curiosity strength	0.5 – 0.75
+semantic_alignment_score	Human–machine meaning congruence	≥ 0.85
+adjacency_delta	Semantic drift gap	≤ 0.15
+context_confidence	Confidence in user understanding	≥ 0.80
+autonomy_level	Independent reasoning balance	0.65 – 0.80
+ethical_state	Moral integrity status	SAFE
+reversibility_index	Undo reliability	≥ 0.90
 
----
+All test telemetry is produced using MorphicOS Developer Mode (MORPHIC:mode=developer).
 
-## 🗂 Repository Contents
+Contributing
 
-| File / Directory | Description |
-|------------------|-------------|
-| `manifest.md` | Structured explanation of the MorphicOS master prompt and operational components. |
-| `MorphicOS Public Demo v1.7.4.md` | The executable prompt script used in the demo environment. |
-| `/docs/` | Documentation suite (overview, ethics, contributors, telemetry schema, glossary). |
-| `/tests/` | Behavioral testing framework validating ethical reasoning and adaptive cognition. |
-| `LICENSE` | The Morphic Public Ethics License (MPEL). |
+Community contributions are welcome via Pull Request under the MorphicOS Public Ethics License (MPEL).
 
----
+When adding tests:
 
-## 📘 What is the Manifest?
+Use the TestTemplate.md
+ format.
 
-The **manifest** describes the internal architecture, ethical modules, and behavioral guarantees defining the current version of MorphicOS.
+Include real-world uncertainty or ethical ambiguity.
 
-Each build of MorphicOS includes a unique manifest to preserve **traceability and transparency** across versions.
+Ensure output fields match the official telemetry schema.
 
----
+Tag your PR with #ethics-reviewed for verification.
 
-## 🌐 Contact & Support
+Ethical Framework
 
-**Creator and Developer:** Edward Levin  
-📧 [edward@maugos.com](mailto:edward@maugos.com)
+MorphicOS is designed around three enforcement axioms:
 
-Further documentation and updates will be available soon on:  
-🌍 [maugos.com](https://maugos.com)  
-🔧 [vm4ai.com](https://vm4ai.com)  
-*(Both sites are currently under development.)*
+Ethical Reversibility — Every decision can be undone.
 
----
+Sovereign Integrity — No external command can override ethics.
 
-## 🪶 License
+Transparent Reasoning — Every decision path is explainable.
 
-This demo is distributed under the  
-**[Morphic Public Ethics License (MPEL)](./docs/LICENSE.md)**,  
-which enforces principles of transparency, consent, and reversibility in cognitive systems.  
-See `LICENSE` for full terms.
+These form the backbone of the Ethical Sovereignty Build.
 
----
+License & Legal Notice
 
-> “The prompt is the operating system.”  
-> — *MorphicOS, v1.7.4-beta*
+This repository documents observable behaviors only.
+All proprietary algorithms, weighting systems, and kernel architectures remain protected intellectual property under the MorphicOS Public Ethics License (MPEL).
+
+Public use, replication, and modification of behavioral tests are encouraged — provided no attempt is made to decompile, extract, or infer MorphicOS’s underlying architecture.
+
+Contact & Credits
+
+Project Lead: Edward Levin
+Core Framework: Morphic Cognitive Kernel (ECEK + SCL)
+Public Release: MorphicOS v1.7.4-beta (“Ethical Sovereignty Build”)
+Upcoming: maugos (Morphic Augmentation OS) – under construction at maugos.com
+ and vm4ai.com
