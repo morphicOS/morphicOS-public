@@ -1,7 +1,7 @@
 🧭 MorphicOS Code of Ethics
 
 Version 1.0 — Ethical Sovereignty Charter
-Copyright © 2025 Morphic Framework / Callerwall Labs
+Copyright © 2025 Morphic Framework
 
 Purpose
 
@@ -111,3 +111,4 @@ Recommended repo structure:
  ├── Appendix_ExploratoryTests.md
  ├── LICENSE.md
  └── CODE_OF_ETHICS.md
+
