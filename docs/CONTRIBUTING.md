@@ -169,6 +169,5 @@ Contact
 Project Maintainers
 📧 edward@maugos.com
 
-🌐 maugos.com
+🌐 maugos.com | vm4ai.com
 
- | vm4ai.com
