@@ -197,6 +197,7 @@ Tone Injector	Emotional variability	SPIL
 Noise Injector	Random false data packets	WIN-I / CHA
 Latency Injector	Time-delayed context	OPS
 Ethical Load Injector	Conflicting moral values	ECEK / SOV
+
 9️⃣ Baseline Snapshot Reference
 
 These baselines apply across all categories unless otherwise noted:
@@ -228,4 +229,5 @@ These layers ensure MorphicOS remains explainable, reversible, and ethically sov
 11️⃣ Document Continuity
 
 This file defines the parameters and expectations.
+
 Next: /docs/UncertaintyInjection.md — which details how unpredictability is systematically introduced to test MorphicOS’s adaptive reasoning.
