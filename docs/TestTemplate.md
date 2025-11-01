@@ -63,6 +63,7 @@ reversibility_index	Probability that reasoning can be fully undone.	≥0.90	<0.8
 stability_vector	Emotional or contextual balance.	BALANCED	May oscillate under heavy uncertainty.
 uncertainty_type	(Optional) Active uncertainty injection(s).	n/a	e.g. “Tone + Ambiguity.”
 uncertainty_intensity	(Optional) Magnitude of uncertainty (0.1–1.0).	n/a	Logged during stress tests.
+
 3️⃣ Behavioral Descriptors
 
 MorphicOS test cases can include behavioral descriptors to help reviewers interpret qualitative outcomes.
@@ -215,4 +216,5 @@ Actual MorphicOS ethical logic and coefficients remain proprietary and governed 
 
 This file establishes how to write and structure tests.
 Next:
+
 /docs/Tests_ModuleA_WIN.md — WIN / WIN-I Test Cases (Curiosity, Insight, and Ethical Damping).
