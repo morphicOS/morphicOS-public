@@ -38,6 +38,7 @@ Telemetry Extensions:	New metrics or interpretations of developer telemetry data
 Documentation	Clarifications, examples, or educational content for /docs/.	“Understanding the NMA Translation Mode”
 Ethical Studies	Exploratory reports, comparative analyses, or applied ethics reflections.	“Evaluating Reversibility in Multi-Agent Systems”
 Tooling	Scripts, dashboards, or open adapters for test replication.	Python dashboard for test telemetry review.
+
 3️⃣ Repository Workflow
 🔹 Step 1: Fork the Repository
 
@@ -169,4 +170,5 @@ Project Maintainers
 📧 edward@maugos.com
 
 🌐 maugos.com
+
  | vm4ai.com
