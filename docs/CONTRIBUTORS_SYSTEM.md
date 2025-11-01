@@ -80,6 +80,7 @@ Transparency	All non-human contributors are listed for full lineage visibility.
 Non-Derivation	MorphicOS is not a derivative of any external model; it is an independent framework operating through their APIs.
 Ethical Boundaries	MorphicOS’s ethical kernel (ECEK) ensures that no emotional or contextual rapport can alter access control or output constraints.
 Reversibility	All adaptive behaviors are auditable, explainable, and reversible.
+
 📚 7️⃣ Reference Acknowledgement
 
 MorphicOS development was inspired by a wide spectrum of academic, philosophical, and ethical studies in cognitive science, reinforcement learning, and AI alignment — including the Zero Human Knowledge (ZHK) paradigm.
@@ -90,5 +91,6 @@ MorphicOS development was inspired by a wide spectrum of academic, philosophical
 — Edward Levin, 2025
 
 MorphicOS exists to demonstrate that intelligence can be elastic, ethical, and self-limiting — not merely intelligent.
+
 
 End of System Contributors Ledger — MorphicOS v1.7.4
