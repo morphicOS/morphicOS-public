@@ -1,7 +1,9 @@
-# MorphicOS — arXiv Workspace
+# MorphicOS — arxiv
 
 This directory hosts research materials for arXiv submissions:
-- **morphicOS-foundational-paper/** — Foundational paper (architecture, ethics, reversibility).
+- **MorphicOS_Core_Paper/** — foundational paper.
 - Additional case studies and supplements will be added over time.
 
-> For the main documentation index, see: [../index.md](../index.md)
+For the main documentation index, see:  
+[https://github.com/morphicOS/morphicOS-public/blob/main/docs/index.md](https://github.com/morphicOS/morphicOS-public/blob/main/docs/index.md)
+
