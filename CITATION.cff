@@ -1,1 +1,35 @@
+cff-version: 1.2.0
+message: "If you use MorphicOS in your research, please cite this repository."
+title: "MorphicOS: A Portable Ethical Cognition Framework for AI"
+version: "1.7.4-beta"
+date-released: 2025-11-03
+authors:
+  - family-names: Levin
+    given-names: Edward
+    affiliation: Independent Researcher, Denmark
+    email: edward@maugos.com
+repository-code: "https://github.com/morphicOS/morphicOS-public"
+license: "MPEL"
+keywords:
+  - AI cognition
+  - ethical reasoning
+  - MorphicOS
+  - adaptive intelligence
+  - cognitive architecture
+  - transparency
+  - reversibility
+  - maugOS
+abstract: >
+  MorphicOS is a modular ethical cognition framework that overlays existing AI models 
+  to provide dynamic reasoning, transparency, and reversibility. It introduces the 
+  Elastic Cognitive Engine (ECE) and the Ethical Sovereignty Kernel (ESK) to enable 
+  adaptable cognitive behavior within defined ethical bounds.
+preferred-citation:
+  type: software
+  title: "MorphicOS v1.7.4-beta"
+  authors:
+    - family-names: Levin
+      given-names: Edward
+  repository: "https://github.com/morphicOS/morphicOS-public"
+  version: "1.7.4-beta"
 
